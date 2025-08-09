@@ -1316,6 +1316,38 @@ section,
   color: var(--accent-color);
 }
 
+@media (max-width: 768px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .projects img {
+    width: 90%;
+    height: auto;
+  }
+
+  .olabike {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .project1, .project2 {
+    float: none;
+    margin: 0;
+    text-align: center;
+  }
+
+  .olaproject,
+  .faceproject {
+    margin-left: 0;
+  }
+
+  .gitrepo {
+    margin-left: 0;
+  }
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
